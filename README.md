@@ -22,7 +22,6 @@ Or install it yourself as:
 
 ## Usage
 
-## User
 随机生成5个60以下的随机数组成的数组
 ```ruby
 FirstTest::Drawing.new.draw
