@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+## User
+随机生成5个60以下的随机数组成的数组
+```ruby
+FirstTest::Drawing.new.draw
+```
 
 ## Development
 
