@@ -26,7 +26,7 @@ Or install it yourself as:
 ```ruby
 FirstTest::Drawing.new.draw
 ```
-控制生成数组的个数
+控制生成数组的 个数
 ```ruby
 FirstTest.configure do |config|
   config.drawing_count = 10
