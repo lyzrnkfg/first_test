@@ -22,9 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
-随机生成5个60以下的随机数组成的数组
+随机生成6个60以下的随机数组成的数组
 ```ruby
 FirstTest::Drawing.new.draw
+```
+控制生成数组的个数
+```ruby
+FirstTest.configure do |config|
+  config.drawing_count = 10
+end
 ```
 
 ## Development
