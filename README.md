@@ -31,6 +31,8 @@ FirstTest::Drawing.new.draw
 FirstTest.configure do |config|
   config.drawing_count = 10
 end
+
+FirstTest::Drawing.new(FirstTest.configuration).draw
 ```
 
 ## Development
